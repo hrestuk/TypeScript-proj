@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeScript Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>TypeScript + HTML Template</h1>
+    <button id="openModal">Відкрити модальне вікно</button>
+  </header>
+
+  <section>
+    <button id="loadData">Завантажити пости</button>
+    <div id="posts"></div>
+  </section>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <h2>Привіт 👋</h2>
+      <p>Це модальне вікно, створене за допомогою TypeScript!</p>
+      <button id="closeModal">Закрити</button>
+    </div>
+  </div>
+
+  <script src="../dist/index.js"></script>
+</body>
+</html>
